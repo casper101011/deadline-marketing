@@ -72,7 +72,7 @@ var TG_NICK = 'Timur_Izgutdinov';
           io.unobserve(entry.target);
         }
       });
-    }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
+    }, { rootMargin: '0px 0px 20% 0px', threshold: 0 });
     reveals.forEach(function (el) { io.observe(el); });
   } else {
     reveals.forEach(function (el) { el.classList.add('is-in'); });
